@@ -6,26 +6,43 @@
     <link rel="stylesheet" href="styles.css" />
     
     <style>
+      body{
+        height: 1000vh;
+      }
+      
+      
       div{
         height: 150px;
         width: 150px;
         background-color: tomato;
       }
-      span{
-        display: block;
-        background-color: turquoise;
+      
+      .green{
+        background-color: green;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        bottom: 0px
       }
+      
+      .bottom{
+        background-color: blue;
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        bottom: -900vh;
+        
+      }
+      
     </style>
     
   </head>
   
   <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <span>hi</span>    
-    <span>hello</span>
-    <span>안녕</span>
+    <div>
+      <div class="green"></div>
+      <div class="bottom"></div>
+    </div>    
   </body>
   
 </html>
