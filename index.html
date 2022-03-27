@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <!--linking css file. argument of href is directory and file name of css-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Kokoa Talk</title>
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+      <!--To do wifi Icon-->
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>110%</span>
+      <i class="fas fa-battery-full fa-2x"></i> <!--when you get script, you can use items by classes that is setteld before in the script-->
+      <!--fas fa-battery-full means (and carry out) battery icon ans fa-2x carry out 2 times bigger icons. all of this thing are defined in the script that you birng in the end of this html page-->      
+      <i class="fas fa-bolt"></i>
+      <!--Battery Icon-->
+      <!--Lighting Icon-->
+    </div>
+  </div>
+  
+  <header class="welcome-header">
+    <h1 class="welcome-header__title ">Welcome to Kokoa Clone</h1>
+    <!--welcome-header is parent so child h1 title tag has class welcome-header__title -->
+    <p class="welcome-header__text">If you have kokoa Account, log in </p>
+  </header>
+  
+  <form id="login-form">
+  <!--There are a few of forms, so just give an id-->
+    <input type="text" placeholder="Email or Phone number" />
+    <input type="text" placeholder="Password" />
+    <input type="submit" value="Log In">
+    <a href="#">Find a Kokoa account or password</a>
+  </form>
+  
+  
+  
+<script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"> 
+</script> 
+
+</body>
+</html>
